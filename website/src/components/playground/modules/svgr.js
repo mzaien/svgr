@@ -2,7 +2,7 @@ import fetch from 'isomorphic-fetch'
 
 /* eslint-env browser */
 export async function svgr(code, options = {}) {
-  const res = await fetch('https://api.react-svgr.com/api/svgr', {
+  const res = await fetch('https://svgr-api-v2.vercel.app/api/svgr', {
     headers: {
       'content-type': 'application/json',
     },
