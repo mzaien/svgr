@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // const { transform } = require('@svgr/core')
-import { transform } from '../../packages/core/src/index';
+const { transform } = require('../../packages/core/src/index');
 const jsx = require('@svgr/plugin-jsx')
 const svgo = require('@svgr/plugin-svgo')
 const prettier = require('@svgr/plugin-prettier')
